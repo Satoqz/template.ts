@@ -10,12 +10,12 @@
 		"type": "git",
 		"url": "https://github.com/<name>/<package>"
 	},
-	"main": "build/Main.js",
+	"main": "build/index.js",
 	"scripts": {
 		"build": "tsc",
-		"start": "node build/Main.js",
-		"start:tsn": "ts-node src/Main.ts",
-		"watch": "nodemon --watch src/**/* --exec ts-node src/Main.ts",
+		"start": "node build/index.js",
+		"start:tsn": "ts-node src/index.ts",
+		"watch": "nodemon --watch src/**/* --exec ts-node src/index.ts",
 		"prepublish": "npm run lint && npm run build",
 		"lint": "eslint ./src/**/*.ts",
 		"lint:fix": "eslint ./src/**/*.ts"
