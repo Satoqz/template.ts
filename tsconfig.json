@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"alwaysStrict": true,
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"target": "es2019",
+		"sourceMap": false,
+		"outDir": "build",
+		"declaration": false,
+		"removeComments": true,
+		"allowSyntheticDefaultImports": true,
+		"pretty": true
+	},
+	"exclude": [
+		"src/**/*.test.ts",
+		"src/**/*.spec.ts",
+		"src/**/*.test.js",
+		"src/**/*.spec.js"
+	]
+}
